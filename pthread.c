@@ -31,7 +31,7 @@ int main(int argc, char **argv){
 	pthread_join(threads[0], NULL);
 	pthread_join(threads[1], NULL);
 	/* Afficher la somme finale, =200000 ?? */
-	printf("Sum=%d\n", sum)
+	printf("Sum=%d\n", sum);
 	return 0;
 
 }
